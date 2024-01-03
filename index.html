@@ -17,6 +17,30 @@
     <!-- color scheme -->
     <link id="colors" href="css/colors/scheme-02.css" rel="stylesheet" type="text/css" />
     <link href="css/coloring.css" rel="stylesheet" type="text/css" />
+    <script src="https://kit.fontawesome.com/f5a24ca635.js" crossorigin="anonymous"></script>
+    <style>
+        .em_txt{
+            font-size:30px;
+        }
+        .transparent{
+            display: block;
+        }
+        .mob_menu{
+            display: none;
+        }
+        @media screen and (max-width:768px){
+             .em_txt{
+            font-size:23px;
+        }
+       
+         .transparent{
+            display: none;
+        }
+         .mob_menu{
+            display: block;
+        }
+        }
+    </style>
 </head>
 
 <body class="dark-scheme">
@@ -77,17 +101,20 @@
                 </div>
             </div>
         </header>
+        <div class="mob_menu">
+            <img src="/img/logo.png" style="width:180px;margin-top:30px;height: 100px;" alt="">
+        </div>
         <!-- header close -->
         <!-- content begin -->
         <div class="no-bottom no-top" id="content">
             <div id="top"></div>
-            <section id="section-hero" data-bgcolor="#21273e" style="background-image: url('img/bg.jpg');">
+            <section id="section-hero" data-bgcolor="#21273e" style="background-image: url('img/bg.jpg');" class="bg_hero">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6 offset-md-3 text-center">
                             <div class="spacer-double"></div>
                             <h1>S.E.C : Stupid Egotistical Cocksuckers</h1>
-                           <img class="lazy pp-coll" src="img/header.png" width="500px" alt="">
+                           <img class="lazy pp-coll" src="img/header.png" style="width:98%;max-width:500px" alt="">
                             <div class="spacer-20"></div>
                             <a href="chartlink" class="btn-main" target="_blank">Chart</a>&nbsp;&nbsp;
                             <a href="buylink" class="btn-main btn-white" target="_blank">Buy</a>
@@ -239,7 +266,7 @@
             <div class="subfooter">
                 <div class="container">
                     <div class="text-center">
-                    <h2>Email: contact@secfudsol.vip</h2></div>
+                    <h2 class="em_txt">Email: contact@secfudsol.vip</h2></div>
                     <div class="row">
                         <div class="col-md-12">
                             <div class="de-flex">
